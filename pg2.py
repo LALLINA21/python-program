@@ -3,5 +3,5 @@ if ((b % 2) == 0):
  print("Even")
 elif ((b % 2) == 1):
  print("Odd")
-elif ((b % 2) != 0):
+else:
  print("Invalid")
