@@ -1,8 +1,7 @@
-x = float(input("Enter a number:"))
-flag = x%2
-if flag == 0:
-   print(x, "Even")
-elif flag == 1:
-   print(x, "Odd")
-else:
-  print("Invalid")
+b = float(input("Enter a number:"))
+if ((b % 2) == 0):
+ print("Even")
+elif ((b % 2) == 1):
+ print("Odd")
+elif ((b % 2) != 0):
+ print("Invalid")
